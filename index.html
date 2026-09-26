@@ -107,13 +107,49 @@
         <div class="hero-stat"><b>100%</b><span>satisfação em planos mensais</span></div>
       </div>
     </div>
-    <div class="hero-visual" aria-hidden="true">
-      <div class="ring r2"></div>
-      <div class="ring r3"></div>
-      <div class="orb"></div>
-      <div class="hero-icon i1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.7s6 6.6 6 11.3a6 6 0 0 1-12 0c0-4.7 6-11.3 6-11.3z"/></svg></div>
-      <div class="hero-icon i2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3h6M10 3v5.3L5.5 17a2 2 0 0 0 1.8 3h9.4a2 2 0 0 0 1.8-3L14 8.3V3"/></svg></div>
-      <div class="hero-icon i3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1z"/></svg></div>
+    <div class="hero-visual">
+      <div class="status-glow" aria-hidden="true"></div>
+      <div class="hero-icon i1" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3h6M10 3v5.3L5.5 17a2 2 0 0 0 1.8 3h9.4a2 2 0 0 0 1.8-3L14 8.3V3"/></svg></div>
+      <div class="hero-icon i3" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1z"/></svg></div>
+
+      <div class="status-panel">
+        <div class="status-head">
+          <span class="status-live"><span class="live-dot"></span> Monitoramento em tempo real</span>
+          <span class="status-time">Atualizado agora</span>
+        </div>
+
+        <div class="status-grid">
+          <div class="status-item">
+            <span class="s-label">pH</span>
+            <b class="s-value">7.4</b>
+            <span class="s-tag ok">Ideal</span>
+          </div>
+          <div class="status-item">
+            <span class="s-label">Cloro</span>
+            <b class="s-value">1.2 <small>ppm</small></b>
+            <span class="s-tag ok">Ideal</span>
+          </div>
+          <div class="status-item">
+            <span class="s-label">Temperatura</span>
+            <b class="s-value">26<small>°C</small></b>
+            <span class="s-tag neutral">Normal</span>
+          </div>
+          <div class="status-item">
+            <span class="s-label">Alcalinidade</span>
+            <b class="s-value">92 <small>ppm</small></b>
+            <span class="s-tag ok">Ideal</span>
+          </div>
+        </div>
+
+        <div class="status-wave" aria-hidden="true">
+          <svg viewBox="0 0 300 40" preserveAspectRatio="none"><path d="M0 22 C40 4,70 40,110 22 S180 4,220 22 300 22 300 22" fill="none" stroke="#00C2FF" stroke-width="2.4"/></svg>
+        </div>
+
+        <div class="status-footer">
+          <div><span class="s-label">Última visita</span><b>Hoje, 09h14</b></div>
+          <div><span class="s-label">Próxima visita</span><b>Sex, 03/10</b></div>
+        </div>
+      </div>
     </div>
   </div>
 </header>
